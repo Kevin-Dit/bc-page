@@ -1,0 +1,905 @@
+@media only screen and (min-width:375px) {}
+
+@media only screen and (min-width:460px) {
+    .banner-image .circle-container {
+        top: 170px;
+        right: 70px;
+    }
+
+    .bubble-two-consultation-sevices,
+    .bubble-two-headless-commerce,
+    .bubble-two-stencil-framework {
+        top: 40%;
+        left: 375px;
+    }
+
+    .bubble-three-consultation-sevices,
+    .bubble-three-headless-commerce,
+    .bubble-three-stencil-framework {
+        top: 90%;
+        left: 355px;
+    }
+}
+
+@media only screen and (min-width:530px) {
+    .banner-image .circle-container {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media only screen and (min-width:576px) {
+    .bottom-footer-inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bottom-footer .bottom-footer-inner .footer-right {
+        padding: 15px 0;
+    }
+
+    .bottom-footer .bottom-footer-inner p {
+        padding: 15px 0;
+    }
+
+    .contact-list {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .contact-list li span {
+        text-align: left;
+    }
+
+    .contact-list li {
+        margin: 0 32px 0 0;
+    }
+
+}
+
+@media only screen and (min-width:630px) {
+    .banner-image .circle-container {
+        top: 250px;
+        right: 100px;
+    }
+
+    .consultation-sevices .framework-image img,
+    .headless-commerce .framework-image img,
+    .key-benefits .framework-image img,
+    .stencil-framework .framework-image img {
+        width: 450px;
+    }
+
+    .bubble-one-consultation-sevices,
+    .bubble-one-headless-commerce,
+    .bubble-one-stencil-framework {
+        top: 15%;
+        left: 500px;
+    }
+
+    .bubble-two-consultation-sevices,
+    .bubble-two-headless-commerce,
+    .bubble-two-stencil-framework {
+        top: 45%;
+        left: 540px;
+    }
+
+    .bubble-three-consultation-sevices,
+    .bubble-three-headless-commerce,
+    .bubble-three-stencil-framework {
+        top: 75%;
+        left: 500px;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .header-inner .logo {
+        width: auto;
+    }
+
+    /* .slider-container {
+        width: 500px;
+      } */
+
+    .header-inner .btn-contact .btn-primary {
+        font-size: 16px;
+    }
+
+    .header-inner .btn-contact .btn-primary .icon {
+        margin-left: 10px;
+    }
+
+    .banner-heading {
+        font-size: 42px;
+        line-height: 46px;
+        margin-bottom: 32px;
+
+    }
+
+    .bubble-two-consultation-sevices,
+    .bubble-two-headless-commerce,
+    .bubble-two-stencil-framework {
+        top: 45%;
+        left: 600px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .grid-item:nth-child(5),
+    .grid-item:nth-child(6),
+    .grid-item:nth-child(7) {
+        grid-column: span 4;
+    }
+
+    .grid-item:nth-child(1),
+    .grid-item:nth-child(2),
+    .grid-item:nth-child(4),
+    .grid-item:nth-child(3) {
+        grid-column: span 2;
+    }
+
+    .why-choose .heading-main-orange {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .why-choose-grid {
+        gap: 32px;
+    }
+
+    .heading-main-orange {
+        font-size: 32px;
+    }
+
+    .heading-main-white {
+        font-size: 32px;
+    }
+
+    .design-heading {
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
+
+    .design-para {
+        font-size: 16px;
+    }
+
+    .grid-item {
+        padding: 0 30px 30px;
+    }
+
+    .why-choose-grid .card .card-inner .why-choose-heading {
+        font-size: 24px;
+        margin-bottom: 17px;
+    }
+
+    .why-choose-grid .card .card-inner .why-choose-paragraph {
+        font-size: 18px;
+    }
+
+    .faq-content-main {
+        width: 49%;
+    }
+
+    .faq-sec .heading-main-orange {
+        margin-bottom: 30px;
+    }
+
+    .banner-section::after,
+    .banner-section::before {
+        height: 310px;
+        width: 310px;
+    }
+
+    .bottom-footer .bottom-footer-inner p {
+        padding: 32px 0;
+        font-size: 16px;
+    }
+
+    .bottom-footer .bottom-footer-inner .footer-right {
+        padding: 32px 0;
+    }
+
+    .why-choose-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+    }
+
+    .consultation-sevices .framework-image,
+    .headless-commerce .framework-image,
+    .stencil-framework .framework-image {
+        background: url(./images/image-bg-left.png) no-repeat left center;
+        padding: 46px 0 50px 0;
+    }
+
+    .consultation-sevices .framework-image img,
+    .headless-commerce .framework-image img,
+    .key-benefits .framework-image img,
+    .stencil-framework .framework-image img {
+        width: 450px;
+    }
+
+    .bubble-one-key-benefits {
+        top: 7%;
+        left: 250px;
+    }
+
+    .bubble-two-key-benefits {
+        top: 25%;
+        left: 390px;
+    }
+
+    .bubble-three-key-benefits {
+        top: 70%;
+        left: 390px;
+    }
+
+    .bubble-four-key-benefits {
+        top: 75%;
+        left: 150px;
+    }
+
+    .bubble-five-key-benefits {
+        top: 48%;
+        left: 100px;
+    }
+}
+
+
+@media only screen and (min-width:1024px) {
+    .banner-section .banner-inner {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .banner-content {
+        width: 50%;
+    }
+
+    .banner-heading {
+        font-size: 48px;
+        line-height: 52px;
+
+    }
+
+    .consultation-sevices,
+    .headless-commerce,
+    .key-benefits,
+    .stencil-framework {
+        flex-direction: row;
+    }
+
+    .key-benefits .image-section {
+        width: 50%;
+    }
+
+    .key-benefits .text-section {
+        width: 50%;
+        margin-bottom: 35px;
+    }
+
+    .vertical-slider-main {
+        margin-bottom: 80px;
+    }
+
+    .client-logo-sec,
+    .industries-main {
+        margin-bottom: 80px;
+    }
+
+    .why-choose-main,
+    .industries1-section,
+    .testimonial-sec,
+    .faq-sec {
+        margin-bottom: 84px;
+    }
+
+    /* Unique Styles */
+    .consultation-sevices .image-section {
+        width: 46%;
+    }
+
+    .consultation-sevices .text-section {
+        width: 44%;
+        margin-bottom: 35px;
+    }
+
+    .headless-commerce .image-section,
+    .stencil-framework .image-section {
+        width: 46%;
+    }
+
+    .key-benefits .image-section {
+        width: 54%;
+    }
+
+    .headless-commerce .text-section,
+    .stencil-framework .text-section {
+        width: 44%;
+        margin-bottom: 35px;
+    }
+
+    .why-choose-grid {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+    }
+
+    .design-development-para {
+        margin: 40px auto 60px auto;
+    }
+
+    .design-development .heading-main-orange {
+        text-align: center;
+    }
+
+    .grid-container {
+        gap: 32px;
+    }
+
+    .consultation-sevices-para,
+    .headless-commerce-para,
+    .key-benefits-para,
+    .stencil-framework-para {
+        margin: 40px 0 32px 0;
+    }
+
+    /* Common Styles */
+    .consultation-sevices-main,
+    .headless-commerce-main,
+    .key-benefits-main,
+    .stencil-framework-main {
+        margin-bottom: 66px;
+    }
+
+    .consultation-sevices,
+    .headless-commerce,
+    .key-benefits,
+    .stencil-framework {
+        align-items: center;
+    }
+
+    .key-benefits .framework-image img {
+        width: 500px;
+    }
+
+    .consultation-sevices .framework-image img,
+    .headless-commerce .framework-image img,
+    .stencil-framework .framework-image img {
+        width: 400px;
+    }
+
+    .bubble-one-consultation-sevices,
+    .bubble-one-headless-commerce,
+    .bubble-one-stencil-framework {
+        top: 0%;
+        left: 168px;
+    }
+
+    .bubble-two-consultation-sevices,
+    .bubble-two-headless-commerce,
+    .bubble-two-stencil-framework {
+        top: 32%;
+        left: 400px;
+    }
+
+    .bubble-three-consultation-sevices,
+    .bubble-three-headless-commerce,
+    .bubble-three-stencil-framework {
+        top: 67%;
+        left: 415px;
+    }
+
+    .bubble-one-key-benefits {
+        top: 7%;
+        left: 200px;
+    }
+
+    .bubble-two-key-benefits {
+        top: 25%;
+        left: 450px;
+    }
+
+    .bubble-three-key-benefits {
+        top: 70%;
+        left: 450px;
+    }
+
+    .bubble-four-key-benefits {
+        top: 75%;
+        left: 150px;
+    }
+
+    .bubble-five-key-benefits {
+        top: 48%;
+        left: 100px;
+    }
+
+    .consultation-sevices .text-section {
+        margin-bottom: 35px;
+    }
+
+    .grid-item:nth-child(1),
+    .grid-item:nth-child(2),
+    .grid-item:nth-child(4),
+    .grid-item:nth-child(3) {
+        grid-column: span 3;
+    }
+
+    .grid-item:nth-child(5),
+    .grid-item:nth-child(6),
+    .grid-item:nth-child(7) {
+        grid-column: span 2;
+    }
+
+    .banner-image .circle-container {
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        top: 230px;
+        right: 70px;
+    }
+
+    .faq-content-main {
+        width: 32%;
+    }
+
+    .faq-sec .heading-main-orange {
+        margin-bottom: 40px;
+    }
+
+    .testimonial-main .testimonial-inner .testimonial-content-main .testimonial-content-inner .slick-list {
+        padding: 0 16% 0 0;
+    }
+
+    .testimonial-main .testimonial-inner .testimonial-content-main .testimonial-content-inner {
+        margin-left: -28px;
+    }
+
+    .testimonial-main {
+        padding: 0 0 0 15px;
+
+    }
+
+    .testimonial-main .testimonial-inner .testimonial-content-main {
+        padding: 0 0 0 15px;
+    }
+
+    .testimonial-main .testimonial-inner .testimonial-content-main .testimonial-content-inner .testimonial-wapper {
+        padding: 0 0 0 15px;
+    }
+
+    .testimonial-main .slick-list.draggable {
+        margin-left: 0;
+    }
+
+    .testimonial-main .testimonial-inner .testimonial-content-main .testimonial-content-inner .slick-arrow.slick-next {
+        right: 15px;
+    }
+
+    .testimonial-main .testimonial-inner .testimonial-content-main .testimonial-content-inner .slick-arrow.slick-prev {
+
+        left: auto;
+        right: 80px;
+    }
+
+    .industries_details_wapper_main .industries_details_wapper_inner {
+        padding: 23px 11px 19px 11px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .banner-image .circle-container {
+        right: 95px;
+    }
+
+    .faq-sec .heading-main-orange {
+        margin-bottom: 48px;
+    }
+}
+
+@media only screen and (min-width:1366px) {
+    .banner-image .circle-container {
+        top: 274px;
+        right: 102px;
+    }
+
+    .consultation-sevices .text-section {
+        width: 50%;
+    }
+
+    .consultation-sevices-list-item ul,
+    .headless-commerce-list-item ul,
+    .key-benefits-list-item ul,
+    .stencil-framework-list-item ul {
+        width: 50%;
+    }
+
+    .consultation-sevices-list-item,
+    .headless-commerce-list-item,
+    .key-benefits-list-item,
+    .stencil-framework-list-item {
+        display: flex;
+    }
+
+    .key-benefits .framework-image img {
+        width: 590px;
+    }
+
+    .consultation-sevices .framework-image img,
+    .headless-commerce .framework-image img,
+    .stencil-framework .framework-image img {
+        width: 500px;
+    }
+
+    .consultation-sevices .image-section {
+        width: 41%;
+    }
+
+    .headless-commerce .image-section,
+    .stencil-framework .image-section {
+        width: 46%;
+    }
+
+    .bubble-one-key-benefits {
+        top: 7%;
+        left: 200px;
+    }
+
+    .bubble-two-key-benefits {
+        top: 25%;
+        left: 550px;
+    }
+
+    .bubble-three-key-benefits {
+        top: 75%;
+        left: 520px;
+    }
+
+    .bubble-four-key-benefits {
+        top: 75%;
+        left: 150px;
+    }
+
+    .bubble-five-key-benefits {
+        top: 48%;
+        left: 100px;
+    }
+
+    .key-benefits .image-section {
+        width: 46%;
+    }
+
+    .bubble {
+        --_size: 50px;
+    }
+
+    .bubble svg {
+        width: 50px;
+        height: 50px;
+    }
+
+    .bubble-one-consultation-sevices,
+    .bubble-one-headless-commerce,
+    .bubble-one-stencil-framework {
+        top: -1%;
+        left: 255px;
+    }
+
+    .bubble-two-consultation-sevices,
+    .bubble-two-headless-commerce,
+    .bubble-two-stencil-framework {
+        top: 32%;
+        left: 540px;
+    }
+
+    .bubble-three-consultation-sevices,
+    .bubble-three-headless-commerce,
+    .bubble-three-stencil-framework {
+        top: 79%;
+        left: 520px;
+    }
+
+    .consultation-sevices .text-section,
+    .headless-commerce .text-section,
+    .key-benefits .text-section,
+    .stencil-framework .text-section {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width:1440px) {
+    .banner-image .circle-container {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+    }
+
+    .testimonial-main .testimonial-inner .testimonial-content-main .testimonial-content-inner .testimonial-wapper {
+        padding: 0 0 0 28px;
+    }
+
+    .testimonial-main .slick-list.draggable {
+        margin-left: -28px;
+    }
+}
+
+
+@media only screen and (min-width:1700px) {
+    .client-logo-sec {
+        margin-bottom: 120px;
+    }
+
+    .vertical-slider-main {
+        margin-bottom: 120px;
+    }
+
+    .consultation-sevices-list-item ul li,
+    .headless-commerce-list-item ul li,
+    .key-benefits-list-item ul li,
+    .stencil-framework-list-item ul li {
+        font-size: 16px;
+    }
+
+    .consultation-sevices .image-section {
+        width: 56%;
+    }
+
+    .industries-main,
+    .design-development-main {
+        margin-bottom: 150px;
+    }
+
+    .why-choose-main,
+    .industries1-section,
+    .testimonial-sec,
+    .faq-sec {
+        margin-bottom: 154px;
+    }
+
+    .consultation-sevices .framework-image img,
+    .headless-commerce .framework-image img,
+    .stencil-framework .framework-image img {
+        width: 590px;
+    }
+
+    .headless-commerce .text-section,
+    .stencil-framework .text-section {
+        width: 38%;
+        margin-bottom: 35px;
+    }
+
+    .why-choose-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 32px;
+        max-width: 1290px;
+        margin: 0 auto;
+        margin-top: 32px;
+    }
+
+
+    .bubble-one-stencil-framework,
+    .bubble-one-consultation-sevices {
+        top: -15px;
+        left: 346px;
+    }
+
+    .bubble-two-stencil-framework,
+    .bubble-two-consultation-sevices {
+        top: 34%;
+        left: 680px;
+    }
+
+    .bubble-three-stencil-framework,
+    .bubble-three-consultation-sevices {
+        top: 70%;
+        left: 700px;
+    }
+
+    .bubble-one-consultation-sevices,
+    .bubble-one-headless-commerce,
+    .bubble-one-stencil-framework {
+        top: -15px;
+        left: 346px;
+    }
+
+    .bubble-two-consultation-sevices,
+    .bubble-two-headless-commerce,
+    .bubble-two-stencil-framework {
+        top: 34%;
+        left: 680px;
+    }
+
+    .bubble-three-consultation-sevices,
+    .bubble-three-headless-commerce,
+    .bubble-three-stencil-framework {
+        top: 70%;
+        left: 700px;
+    }
+
+    .design-development-para {
+        margin: 40px auto 72px auto;
+    }
+
+    .testimonial-main .testimonial-inner .testimonial-content-main .testimonial-content-inner .slick-arrow.slick-next {
+        right: 35px;
+    }
+
+    .testimonial-main .testimonial-inner .testimonial-content-main .testimonial-content-inner .slick-arrow.slick-prev {
+        right: 100px;
+    }
+}
+
+@media only screen and (min-width:1920px) {
+    .testimonial-main .testimonial-inner .testimonial-content-main .testimonial-content-inner .slick-arrow.slick-next {
+        right: 140px;
+    }
+
+    .testimonial-main .testimonial-inner .testimonial-content-main .testimonial-content-inner .slick-arrow.slick-prev {
+        right: 210px;
+    }
+
+    .testimonial-main .testimonial-inner .testimonial-content-main {
+        /* max-width: 1770PX; */
+        margin-left: 150px;
+        /* margin: 0 auto; */
+    }
+}
+
+@media screen and (max-width: 1279px) {
+
+    .industries2,
+    .industries5,
+    .industries8,
+    .industries9,
+    .industries10,
+    .industries12,
+    .industries13,
+    .industries14,
+    .industries15 {
+        grid-column: span 2;
+        grid-row: auto;
+    }
+
+    .industries3.industries_details_wapper_main {
+        grid-column: span 3;
+    }
+
+    .industries5.industries_details_wapper_main {
+        grid-column: span 2;
+    }
+
+    .industries4.industries_details_wapper_main {
+        grid-column: span 5;
+    }
+
+    .industries7.industries_details_wapper_main {
+        grid-column: span 3;
+    }
+
+    .industries13.industries_details_wapper_main {
+        grid-column: span 4;
+    }
+
+    .industries14.industries_details_wapper_main {
+        grid-column: span 4;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .industries4.industries_details_wapper_main {
+        grid-column: span 6;
+    }
+
+    .industries7.industries_details_wapper_main {
+        grid-column: span 4;
+    }
+
+    .industries11.industries_details_wapper_main {
+        grid-column: span 2;
+    }
+
+    .industries12.industries_details_wapper_main {
+        grid-column: span 4;
+    }
+
+    .industries15.industries_details_wapper_main {
+        grid-column: span 6;
+    }
+
+    .industries1.industries_details_wapper_main {
+        grid-column: span 4;
+    }
+
+    .industries6.industries_details_wapper_main {
+        grid-column: span 3;
+    }
+
+    .industries14.industries_details_wapper_main {
+        grid-column: span 2;
+    }
+
+    .industries_details_box_icon svg {
+        height: 60px;
+        width: 60px;
+    }
+
+    .industries_details_box_heading h4 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 574px) {
+
+    .industries2,
+    .industries5,
+    .industries8,
+    .industries9,
+    .industries10,
+    .industries12,
+    .industries13,
+    .industries14,
+    .industries15 {
+        grid-column: span 3;
+        grid-row: auto;
+    }
+
+    .industries12.industries_details_wapper_main {
+        grid-column: span 6;
+    }
+
+    .industries1.industries_details_wapper_main {
+        grid-column: span 6;
+    }
+
+    .industries3.industries_details_wapper_main {
+        grid-column: span 6;
+    }
+
+    section.industries1-section .parent {
+        gap: 10px;
+    }
+
+    .industries5.industries_details_wapper_main {
+        grid-column: span 3;
+    }
+
+    .industries6.industries_details_wapper_main {
+        grid-column: span 3;
+    }
+
+    .industries13.industries_details_wapper_main {
+        grid-column: span 3;
+    }
+
+    .industries14.industries_details_wapper_main {
+        grid-column: span 3;
+    }
+
+    .industries14.industries_details_wapper_main {
+        grid-column: span 3;
+    }
+
+    .industries_details_box_icon svg {
+        height: 40px;
+        width: 40px;
+    }
+
+    .industries_details_box_heading h4 {
+        font-size: 14px;
+    }
+
+    .industries_details_wapper_main {
+        padding: 10px;
+    }
+}
